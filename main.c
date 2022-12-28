@@ -18,9 +18,9 @@ const char *messages[] = {
 	[turbo] = "Switched to turbo mode.",
 };
 const char *icons[] = {
-	[silent] = "fan-silent",
-	[performance] = "fan-performance",
-	[turbo] = "fan-turbo",
+	[silent] = "sensors-fan-symbolic",
+	[performance] = "sensors-fan-symbolic",
+	[turbo] = "sensors-fan-symbolic",
 };
 
 void notify(NotifyNotification *notif, int fanMode) {
